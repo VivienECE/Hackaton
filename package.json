@@ -1,0 +1,19 @@
+{
+  "name": "Hackaton",
+  "version": "0.0.0",
+  "description": "Hackaton web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivienECE/Hackaton.git"
+  },
+  "author": "Vivien DETOURNAY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivienECE/Hackaton/issues"
+  },
+  "homepage": "https://github.com/VivienECE/Hackaton#readme"
+}
