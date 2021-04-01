@@ -14,6 +14,7 @@ import {
 import Image from 'react-bootstrap/Image'
 import logo from './logo.svg';
 import './App.css';
+import Profil from './Profile'
 import Compiler from './Compiler'
 import Epreuves from './Epreuves_home.js'
 import Hackaton from './Hackaton_home.js'
@@ -43,9 +44,10 @@ function App() {
       </header>
        <body className="App-body">
          <Switch>
-              <Route path='/profil' component={Compiler} />
+              <Route path='/profil' component={Profil} />
               <Route path='/epreuves' component={Epreuves} />
               <Route path='/hackaton' component={Hackaton} />
+              <Route path='/compiler' component={Compiler} />
           </Switch>
       </body>
 

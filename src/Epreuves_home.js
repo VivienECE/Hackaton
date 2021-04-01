@@ -31,10 +31,10 @@ export default () => {
           <div class="form-group">
           <div class="list-group">
 
-              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 1<button type="button" class="btn btn-danger float-right">Voir</button></a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 2<button type="button" class="btn btn-danger float-right">Voir</button></a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 3<button type="button" class="btn btn-danger float-right">Voir</button></a>
-              <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 4<button type="button" class="btn btn-danger float-right">Voir</button></a>
+              <a href="/compiler" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 1<button type="button" class="btn btn-danger float-right">Voir</button></a>
+              <a href="/compiler" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 2<button type="button" class="btn btn-danger float-right">Voir</button></a>
+              <a href="/compiler" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 3<button type="button" class="btn btn-danger float-right">Voir</button></a>
+              <a href="/compiler" class="list-group-item list-group-item-action list-group-item-primary">Epreuve 4<button type="button" class="btn btn-danger float-right">Voir</button></a>
 
             </div>
           </div>
