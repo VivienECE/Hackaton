@@ -29,6 +29,7 @@ function App() {
           integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
           crossorigin="anonymous"
         />
+        <script type="text/javascript" src="src/compilerscript.js"></script>
         <Navbar bg="primary" variant="dark">
         <Navbar.Brand href="/">
         <img src="icone.svg" class="rounded float-left img-fluid" width="100" height="50" alt="Comment ça marche ?"/>
@@ -47,8 +48,8 @@ function App() {
               <Route path='/hackaton' component={Hackaton} />
           </Switch>
       </body>
-      <footer class="bg-primary text-center text-lg-start" variant="dark">
 
+      <footer class="bg-primary text-center text-lg-start" variant="dark">
 
       <div class="form-group">
               <div class="container">

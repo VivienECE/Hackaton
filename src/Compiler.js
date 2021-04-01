@@ -1,10 +1,8 @@
 //Envoie le code (ligne 32), mais impossible de récupérè l'ID de la compilation que renvoie l'API
 
 const styles = {
-  form: {
-    borderTop: '2px solid #373B44',
-    padding: '.5rem',
-    display: 'flex',
+  compiler: {
+    'align-items': 'unset'
   },
 }
 
@@ -45,22 +43,7 @@ const IDEForm = () => {
     } 
 
   return (
-    <form css={styles.form} onSubmit={onSubmit} >
-      <h3>Code</h3>
-      <textarea rows="13" cols="100" id="code" name="code" ></textarea> 
-      <br/>
-      <h3>Output</h3>
-      <textarea disabled rows="10" cols="100" id="output" name="output" ></textarea> 
-      <br/>
-      <br/>
-      Language : <select name="lang">
-        <option value="C">C</option>
-        <option value="Java">Java</option>  
-        <option value="Python">Python</option> 
-      </select>
-      <br />
-      <input  type="submit" value="Send" />
-    </form>
+    <iframe style={styles.compiler} width="200%" height="800" src="https://compilers.widgets.sphere-engine.com/lp?hash=fc30fcfc9d2ef3ae39f3950153da5253" frameborder="0"></iframe>
   )
 }
 
